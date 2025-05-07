@@ -7,7 +7,13 @@ This files contains a version history including all changes relevant for semanti
 
 ## Upcoming Changes
 
-* Switched Target from x64 and x86 to AnyCpu and enabled release-builds for .net 8
+*(none)*
+
+
+
+## v 0.1.1
+released **2025-05-07**, including:
+ - Switched Target from x64 and x86 to AnyCpu and enabled release-builds for .net 8
 
 
 
