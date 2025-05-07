@@ -11,6 +11,12 @@ This files contains a version history including all changes relevant for semanti
 
 
 
+## v 0.1.2
+released **2025-05-07**, including:
+ - new revision without significant changes
+
+
+
 ## v 0.1.1
 released **2025-05-07**, including:
  - Switched Target from x64 and x86 to AnyCpu and enabled release-builds for .net 8

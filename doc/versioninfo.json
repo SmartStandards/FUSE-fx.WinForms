@@ -1,13 +1,13 @@
 {
-  "currentVersion": "0.1.1",
-  "currentVersionWithSuffix": "0.1.1",
+  "currentVersion": "0.1.2",
+  "currentVersionWithSuffix": "0.1.2",
   "releaseType": "",
-  "previousVersion": "0.1.0",
+  "previousVersion": "0.1.1",
   "changeGrade": "fix",
   "currentMajor": 0,
   "currentMinor": 1,
-  "currentPatch": 1,
+  "currentPatch": 2,
   "versionDateInfo": "2025-05-07",
-  "versionTimeInfo": "13:08:50",
-  "versionNotes": "- Switched Target from x64 and x86 to AnyCpu and enabled release-builds for .net 8\n"
+  "versionTimeInfo": "13:46:24",
+  "versionNotes": "- new revision without significant changes\n"
 }
