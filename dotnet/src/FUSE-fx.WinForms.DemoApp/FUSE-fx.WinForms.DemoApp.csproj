@@ -30,10 +30,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="FUSE-fx.DynDB-JSONfs" Version="0.1.0" />
     <PackageReference Include="FUSE-fx.EntityAnnotations" Version="4.1.1" />
     <PackageReference Include="FUSE-fx.ModelDescription" Version="2.0.16" />
     <PackageReference Include="FUSE-fx.ModelReader" Version="0.2.7" />
     <PackageReference Include="FUSE-fx.RepositoryContract" Version="0.5.2" />
+    <PackageReference Include="KornSW.AbstractFileSystem.RepositoryContract" Version="2.1.3" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
