@@ -1,0 +1,86 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4130D21C-FE8F-4925-93E7-217B4AF1B7D9}"
+	ProjectSection(SolutionItems) = preProject
+		..\doc\changelog.md = ..\doc\changelog.md
+		FUSE-fx.WinForms.nuspec = FUSE-fx.WinForms.nuspec
+		..\readme.md = ..\readme.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EFB5135D-039A-4D92-8FDD-9EA5D070F991}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{ADA576B9-92C4-4C75-9605-06023D1026B2}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "FUSE-fx.WinForms", "src\FUSE-fx.WinForms\FUSE-fx.WinForms.shproj", "{25035403-D38A-4DA2-92FA-845EA4F799A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.WinForms.DemoApp", "src\FUSE-fx.WinForms.DemoApp\FUSE-fx.WinForms.DemoApp.csproj", "{450E6CB2-0295-D6BA-131C-38F4A27D0E31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.WinForms.net6.0", "src\FUSE-fx.WinForms.net6.0\FUSE-fx.WinForms.net6.0.csproj", "{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.WinForms.net8.0", "src\FUSE-fx.WinForms.net8.0\FUSE-fx.WinForms.net8.0.csproj", "{324BE11F-560A-B2F6-BC95-AF0238C2597F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FUSE-fx.WinForms.net48", "src\FUSE-fx.WinForms.net48\FUSE-fx.WinForms.net48.csproj", "{6D4B784F-2226-4331-BE17-9CD522BD09DA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Debug|x64.ActiveCfg = Debug|x64
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Debug|x64.Build.0 = Debug|x64
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Debug|x86.ActiveCfg = Debug|x86
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Debug|x86.Build.0 = Debug|x86
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Release|x64.ActiveCfg = Release|x64
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Release|x64.Build.0 = Release|x64
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Release|x86.ActiveCfg = Release|x86
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31}.Release|x86.Build.0 = Release|x86
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Debug|x64.ActiveCfg = Debug|x64
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Debug|x64.Build.0 = Debug|x64
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Debug|x86.ActiveCfg = Debug|x86
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Debug|x86.Build.0 = Debug|x86
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Release|x64.ActiveCfg = Release|x64
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Release|x64.Build.0 = Release|x64
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Release|x86.ActiveCfg = Release|x86
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E}.Release|x86.Build.0 = Release|x86
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F}.Debug|x64.ActiveCfg = Debug|x64
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F}.Debug|x64.Build.0 = Debug|x64
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F}.Debug|x86.ActiveCfg = Debug|x86
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F}.Debug|x86.Build.0 = Debug|x86
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F}.Release|x64.ActiveCfg = Release|x64
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F}.Release|x86.ActiveCfg = Release|x86
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Debug|x64.ActiveCfg = Debug|x64
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Debug|x64.Build.0 = Debug|x64
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Debug|x86.ActiveCfg = Debug|x86
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Debug|x86.Build.0 = Debug|x86
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Release|x64.ActiveCfg = Release|x64
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Release|x64.Build.0 = Release|x64
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Release|x86.ActiveCfg = Release|x86
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{ADA576B9-92C4-4C75-9605-06023D1026B2} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
+		{25035403-D38A-4DA2-92FA-845EA4F799A1} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
+		{450E6CB2-0295-D6BA-131C-38F4A27D0E31} = {EFB5135D-039A-4D92-8FDD-9EA5D070F991}
+		{EE1CDDFA-4EC9-D54C-B651-A20B2E241D1E} = {ADA576B9-92C4-4C75-9605-06023D1026B2}
+		{324BE11F-560A-B2F6-BC95-AF0238C2597F} = {ADA576B9-92C4-4C75-9605-06023D1026B2}
+		{6D4B784F-2226-4331-BE17-9CD522BD09DA} = {ADA576B9-92C4-4C75-9605-06023D1026B2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2F37C1D-32F0-4BF2-AAEB-46B9D8C07D23}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		src\FUSE-fx.WinForms\FUSE-fx.WinForms.projitems*{25035403-d38a-4da2-92fa-845ea4f799a1}*SharedItemsImports = 13
+		src\FUSE-fx.WinForms\FUSE-fx.WinForms.projitems*{324be11f-560a-b2f6-bc95-af0238c2597f}*SharedItemsImports = 5
+		src\FUSE-fx.WinForms\FUSE-fx.WinForms.projitems*{6d4b784f-2226-4331-be17-9cd522bd09da}*SharedItemsImports = 4
+		src\FUSE-fx.WinForms\FUSE-fx.WinForms.projitems*{ee1cddfa-4ec9-d54c-b651-a20b2e241d1e}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal

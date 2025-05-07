@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>cf0a161a-99ba-4f01-af5e-16c6fcbc85ae</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>System.Data.Fuse</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\CollectionViewDataSource.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\ColumnDescriptors.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\ColumnPropertyDescriptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\ColumnPropertyDescriptorFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\ControlBuilder.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\DirectlyPersistingListEditingController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\DisplayableFieldRegistrator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\Extensions_Generic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\GenericListEditingController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\GenericPresenterForCollectionViewControl.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IColumnPropertyDescriptor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IDisplayableFieldRegistrator.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IFluentDisplayFieldDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IListEditingController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IModelDisplaySchema.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IPersistenceService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\IStateContainer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\PopupButton.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\Selection.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\SelectionAttribute.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\SelectionController.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\SortableBindingList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\SortableList%28Of %29.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\StrongTypingHelper.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Internal\TypeExt.cs" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,98 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <AssemblyName>FUSE-fx.WinForms</AssemblyName>
+    <RootNamespace>System</RootNamespace>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Platforms>AnyCPU;x86;x64</Platforms>
+  </PropertyGroup>
+  
+  <PropertyGroup>
+    <PackageId>FUSE-fx.WinForms</PackageId>
+    <Description>FUSE-fx.WinForms</Description>
+    <Product>FUSE-fx</Product>
+    <Company>(public domain)</Company>
+    <Copyright>SmartStandards</Copyright>
+    <Version>1.0.0</Version>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <Authors>SmartStandards</Authors>
+    <FileVersion>1.0.0.0</FileVersion>
+    <PackageTags></PackageTags>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
+    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
+    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
+  </PropertyGroup>
+  
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
+    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
+    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
+    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;NET5</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
+    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;NET5</DefineConstants>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
+    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
+    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <NoWarn>1701;1702;1591</NoWarn>
+    <DefineConstants>TRACE;NET5</DefineConstants>
+  </PropertyGroup>
+
+  <Import Project="..\FUSE-fx.WinForms\FUSE-fx.WinForms.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="FUSE-fx.EntityAnnotations" Version="4.1.1" />
+    <PackageReference Include="FUSE-fx.ModelDescription" Version="2.0.16" />
+    <PackageReference Include="FUSE-fx.ModelReader" Version="0.2.7" />
+    <PackageReference Include="FUSE-fx.RepositoryContract" Version="0.5.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
