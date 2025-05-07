@@ -6,7 +6,7 @@
     <AssemblyName>FUSE-fx.WinForms</AssemblyName>
     <RootNamespace>System</RootNamespace>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Platforms>AnyCPU;x86;x64</Platforms>
+    <Platforms>AnyCPU</Platforms>
   </PropertyGroup>
   
   <PropertyGroup>
@@ -29,40 +29,8 @@
     <NoWarn>1701;1702;1591</NoWarn>
     <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
   </PropertyGroup>
-  
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
-    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <NoWarn>1701;1702;1591</NoWarn>
-    <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
-  </PropertyGroup>
-  
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x86'">
-    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
-    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <NoWarn>1701;1702;1591</NoWarn>
-    <DefineConstants>TRACE;DEBUG;NET5</DefineConstants>
-  </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
-    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <NoWarn>1701;1702;1591</NoWarn>
-    <DefineConstants>TRACE;NET5</DefineConstants>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
-    <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <NoWarn>1701;1702;1591</NoWarn>
-    <DefineConstants>TRACE;NET5</DefineConstants>
-  </PropertyGroup>
-
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x86'">
     <OutputPath>..\..\dist\bin-net6.0\</OutputPath>
     <DocumentationFile>..\..\dist\bin-net6.0\FUSE-fx.WinForms.xml</DocumentationFile>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
