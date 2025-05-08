@@ -41,10 +41,10 @@
   <Import Project="..\FUSE-fx.WinForms\FUSE-fx.WinForms.projitems" Label="Shared" />
 
   <ItemGroup>
-    <PackageReference Include="FUSE-fx.EntityAnnotations" Version="4.1.1" />
+    <PackageReference Include="FUSE-fx.EntityAnnotations" Version="4.1.2" />
     <PackageReference Include="FUSE-fx.ModelDescription" Version="2.0.16" />
-    <PackageReference Include="FUSE-fx.ModelReader" Version="0.2.7" />
-    <PackageReference Include="FUSE-fx.RepositoryContract" Version="0.5.2" />
+    <PackageReference Include="FUSE-fx.ModelReader" Version="0.2.8" />
+    <PackageReference Include="FUSE-fx.RepositoryContract" Version="0.5.3" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
   </ItemGroup>
 
